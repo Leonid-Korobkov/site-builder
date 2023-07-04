@@ -1,0 +1,16 @@
+{
+  "name": "site-builder",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 4200",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "author": "Leonid Korobkov",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
+
+
